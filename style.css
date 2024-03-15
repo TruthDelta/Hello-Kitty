@@ -12,6 +12,7 @@ header {
     height: 250px;
     padding: 10px;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 h1 {
@@ -25,14 +26,16 @@ header img {
     width: 270px;
     height: 200px;
     margin: 20px;
+    cursor: grab;
 }
 
 .topo {
     text-decoration: none;
     list-style: none;
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     margin: 20px auto;
+    padding-right: 40px;
 }
 
 .topo li {
@@ -41,7 +44,8 @@ header img {
 
 .topo li a:hover {
     align-items: center;
-    color: #FE003F;
+    color: #EBC1C8;
+    transition: 0.6s;
 }
 
 .topo li a {
@@ -62,24 +66,38 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 60px;
 }
 
 .meio div img {
     height: 300px;
     width: 300px;
-    margin: 40px;
+    margin: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.462);
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.preco {
+    text-align: center;
+    font-size: 18px;
+    margin-top: -24px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 2px 2px #000000;
 }
 
 .meio2 {
     background-color: #FE003F;
     height: 200px auto;
+    padding: 70px;
+    text-align: justify;
 }
 
 .meio2 p {
-font-size: 20px;
-padding: 20px;
-color: white;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
 }
 
 footer {
@@ -91,31 +109,48 @@ footer {
 }
 
 h3 {
-font-size: 40px;
-margin-top: 30px;
-text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    background-color: #FE003F;;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
 }
 
-footer i{
-font-size: 60px;
-padding: 20px;
-margin-top: 10px;
+footer i {
+    font-size: 60px;
+    padding: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer i:hover {
+    font-size: 68px;
+    padding: 20px;
+    margin-top: 10px;
+    color: #FE003F;
+    transition: 0.6s;
 }
 
 .rodape li {
-font-size: 20px;
-list-style: none;
-text-decoration: none;
-padding: 2px;
-margin-top: 20px;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 15px;
+    padding-left: 40px;
 }
 
 .rodape li:hover {
-font-size: 20px;
-list-style: none;
-text-decoration: none;
-padding: 2px;
-margin-top: 20px;
-color: #FDEC06;
-cursor: pointer;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 15px;
+    color: #FE003F;
+    cursor: pointer;
+    transition: 0.6s;
 }
