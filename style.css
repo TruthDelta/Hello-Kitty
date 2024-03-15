@@ -11,13 +11,14 @@ header {
     justify-content: space-between;
     height: 250px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 h1 {
-text-align: center;
-color: white;
-margin: auto;
-font-size: 80px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 80px;
 }
 
 header img {
@@ -27,22 +28,94 @@ header img {
 }
 
 .topo {
-text-decoration: none;
-list-style: none;
-font-size: 40px;
-display: flex;
-margin: auto;
+    text-decoration: none;
+    list-style: none;
+    font-size: 40px;
+    display: flex;
+    margin: 20px auto;
 }
 
 .topo li {
-align-items: center;
+    align-items: center;
+}
+
+.topo li a:hover {
+    align-items: center;
+    color: #FE003F;
 }
 
 .topo li a {
-text-decoration: none;
-list-style: none;
-color: white;
-margin-right: 20px;
-
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-right: 20px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.meio {
+    background-image: url(Imagens/bg\ hk.png);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.meio div img {
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.462);
+}
+
+.meio2 {
+    background-color: #FE003F;
+    height: 200px auto;
+}
+
+.meio2 p {
+font-size: 20px;
+padding: 20px;
+color: white;
+}
+
+footer {
+    background-color: #EBC1C8;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+
+h3 {
+font-size: 40px;
+margin-top: 30px;
+text-align: center;
+}
+
+footer i{
+font-size: 60px;
+padding: 20px;
+margin-top: 10px;
+}
+
+.rodape li {
+font-size: 20px;
+list-style: none;
+text-decoration: none;
+padding: 2px;
+margin-top: 20px;
+}
+
+.rodape li:hover {
+font-size: 20px;
+list-style: none;
+text-decoration: none;
+padding: 2px;
+margin-top: 20px;
+color: #FDEC06;
+cursor: pointer;
+}
