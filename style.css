@@ -1,7 +1,21 @@
+@font-face {
+    font-family: 'Hello Mickeys';
+    src: url('fontes/Hello Mickeys.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sunny';
+    src: url('fontes/Sunny Spells Basic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 header {
@@ -9,7 +23,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 250px;
+    height: vh;
     padding: 10px;
     margin-bottom: 20px;
     align-items: center;
@@ -20,6 +34,7 @@ h1 {
     color: white;
     margin: auto;
     font-size: 80px;
+    font-family: 'Hello Mickeys';
 }
 
 header img {
@@ -33,6 +48,7 @@ header img {
     text-decoration: none;
     list-style: none;
     font-size: 30px;
+    font-family: 'Hello Mickeys';
     display: flex;
     margin: 20px auto;
     padding-right: 40px;
@@ -40,6 +56,7 @@ header img {
 
 .topo li {
     align-items: center;
+    
 }
 
 .topo li a:hover {
@@ -59,10 +76,12 @@ h2 {
     text-align: center;
     font-size: 60px;
     margin-bottom: 20px;
+    font-family: 'Hello Mickeys';
 }
 
 .meio {
     background-image: url(Imagens/bg\ hk.png);
+    background-attachment: fixed;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -81,32 +100,35 @@ h2 {
 .preco {
     text-align: center;
     font-size: 18px;
+    font-family: 'Sunny';
     margin-top: -24px;
     cursor: pointer;
     color: white;
     text-shadow: 1px 2px 2px #000000;
 }
 
-.preco :hover {
+.preco:hover {
     text-align: center;
     font-size: 24px;
     margin-top: -24px;
     cursor: pointer;
     color: white;
     text-shadow: 1px 2px 2px #000000;
+    transition: 0.6s;
 }
 
 .meio2 {
-    background-color: #FE003F;
+    background-color: #fe003f;
     height: 200px auto;
     padding: 70px;
     text-align: justify;
 }
 
 .meio2 p {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     padding: 10px;
+    font-family: 'Sunny';
 }
 
 footer {
@@ -114,7 +136,7 @@ footer {
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
-    height: 250px;
+    padding: 30px;
 }
 
 h3 {
@@ -127,6 +149,7 @@ h3 {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 30px;
+    font-family: 'Hello Mickeys';
 }
 
 footer i {
@@ -145,16 +168,17 @@ footer i:hover {
 }
 
 .rodape li {
-    font-size: 20px;
+    font-size: 30px;
     list-style: none;
     text-decoration: none;
     padding: 2px;
     margin-top: 15px;
     padding-left: 40px;
+    font-family: 'Sunny';
 }
 
 .rodape li:hover {
-    font-size: 25px;
+    font-size: 35px;
     list-style: none;
     text-decoration: none;
     padding: 2px;
